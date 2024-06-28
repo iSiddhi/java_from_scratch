@@ -1,0 +1,32 @@
+class Main{
+    public static void main(String[] args){
+        int score=0;
+        int turns=10;
+        // two double plusmeans it will increase its value for 1;
+        score++;
+        turns--;
+        System.out.println(score );
+        System.out.println(turns);
+        
+        
+    }
+    
+}
+
+
+class Main{
+    public static void main(String[] args){
+        int number = 55;
+        // if we write in end , out is 55 then 56
+        System.out.println(number++ );
+        System.out.println(number);
+         System.out.println(number-- );
+        System.out.println(number);
+        // if we write it in front , output is 56 56
+         System.out.println(++number );
+        System.out.println(number);
+        
+        
+    }
+    
+}
